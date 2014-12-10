@@ -17,7 +17,7 @@
 ## Dev Dependancies
 
 - [Gulp](gulpjs.com)
-- [Gulp SASS](https://www.npmjs.org/package/gulp-sass)
+- [Gulp LESS](https://www.npmjs.org/package/gulp-less)
 - [Gulp Imagemin](https://www.npmjs.org/package/gulp-imagemin)
 - [Gulp Reaname](https://www.npmjs.org/package/gulp-rename)
 - [Gulp Jade](https://www.npmjs.org/package/gulp-jade)
