@@ -43,15 +43,30 @@
     
   </script>
   <script id="contact" type="text/template">
-    <div class="page contact">{{{content}}}</div>
+    <div class="page contact">
+     {{{content}}}
+      <form action="/my-handling-form-page" method="post">
+        <div>
+            <input type="text" id="name" placeholder="Name"/>
+        </div>
+        <div>
+            <input type="email" id="mail" placeholder="Email"/>
+        </div>
+        <div>
+            <textarea id="msg" placeholder="Message" rows="8"></textarea>
+        </div>
+        <button>SEND</button>
+      </form>
+    </div>
+    
     
   </script>
   <script id="connect" type="text/template">
-    <div class="page contact">{{{content}}}</div>
+    <div class="page connect">{{{content}}}</div>
     
   </script>
   <script id="work" type="text/template">
-    <div class="page contact">{{{content}}}</div>
+    <div class="page work">{{{content}}}</div>
     
   </script>
   <!-- ------------------------------->
