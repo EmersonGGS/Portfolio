@@ -15,7 +15,8 @@ window.HomeView = Backbone.View.extend({
 
     // Some page data
     this.model.set({
-      content: '<h1>Hey there.</h1> <h2>Nice you meet you.</h2>'
+      content: "<h1>Hello. Let's talk.</h1>",
+      image: "assets/images/talking.png"
     });
 
   },

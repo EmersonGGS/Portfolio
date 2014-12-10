@@ -15,7 +15,8 @@ window.ContactView = Backbone.View.extend({
 
     // Some page data
     this.model.set({
-      content: '<h1>Contact</h1>'
+      content: '<h1>Contact</h1>',
+      image: 'assets/images/contact.png'
     });
 
   },

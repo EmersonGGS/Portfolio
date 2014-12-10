@@ -64,11 +64,21 @@ a{
   margin-left: auto;
   margin-right:auto;
   width: 85%;
-  padding:10px;
+  padding:25px;
   max-width: 1000px;
 }
+
 .main h1, h2{
+  width: 100%;
+  margin-left: -120px;
   text-align: center;
+}
+
+#titleCont h1, h2{
+  width: 100%;
+  margin:0px;
+  margin-top:15px;
+  text-align: left;
 }
 
 p{
@@ -77,6 +87,29 @@ p{
   width: 90%;
   margin-left: auto;
   margin-right:auto;
+}
+
+.sectionIcon{
+  width:120px;
+  height:auto;
+  display: block;
+  margin-left: -20px;
+  margin-top: -45px;
+  float: left;
+}
+
+.connectIcon{
+  width:120px;
+  height:auto;
+  display: block;
+  margin-left: -10px;
+  margin-top: -10px;
+  float: left;
+}
+
+.home h1{
+  display: block;
+  text-align: center;
 }
 
 form{
@@ -103,8 +136,32 @@ button{
   background-color: #778492;
 }
 
+button:hover{
+  background-color: #dae3e7;
+  color: #778492;
+}
+
 form{
   padding-bottom: 20px;
+}
+
+.connect{
+  width: 660px;
+  margin: auto;
+}
+
+.connect a{
+  display:inline-block;
+  width: 125px;
+  height: 125px;
+  margin-left: 35px;
+  margin-top: 35px;
+  background-position: center;
+  background-size: contain;
+}
+.connect a:hover{
+  background-color: #dae3e7;
+  border-radius:50%;
 }
 
 footer{

@@ -61,13 +61,20 @@ html
   // -----------------------------
 
   script#home(type="text/template").
-    <div class="page home">{{{content}}}</div>
+    <div class="page home">
+      <img src="{{{image}}}" class="sectionIcon">
+      {{{content}}}
+    </div>
 
   script#about(type="text/template").
-    <div class="page about">{{{content}}}</div>
+    <div class="page about">
+      <img src="{{{image}}}" class="sectionIcon">
+      {{{content}}}
+    </div>
 
   script#contact(type="text/template").
     <div class="page contact">
+    <img src="{{{image}}}" class="sectionIcon">
      {{{content}}}
       <form action="/my-handling-form-page" method="post">
         <div>
@@ -85,7 +92,15 @@ html
 
 
   script#connect(type="text/template").
-    <div class="page connect">{{{content}}}</div>
+    <img src="{{{image}}}" class="connectIcon">
+    <div class="page connect">
+      {{{content}}}
+      {{#each conections}}
+        <a href="{{link}}" target='_blank' style="background-image:{{image}}">
+          <div class="socialMediaIcon" style="background-image:{{image}}"></div>
+        </a>
+      {{/each}}
+    </div>
 
   script#work(type="text/template").
     <div class="page work">{{{content}}}</div>
