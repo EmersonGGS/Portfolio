@@ -1,0 +1,109 @@
+doctype html
+html
+
+  head
+
+  meta(charset="utf-8")
+
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+  title Emerson Stewart
+
+  meta(name="description", content="Portfolio for Emerson Stewart")
+
+  meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
+
+  <!-- Latest compiled and minified CSS -->
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css")
+
+  <!-- Google Font -->
+  link(href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css')
+
+  <!-- custom styles -->
+  link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
+
+  body
+
+  div.wrapper
+
+    div.headerCont
+
+      header.header
+
+        img#myFace(src="assets/images/stupidpic.jpg")
+
+        div#titleCont
+
+          h1 Emerson Stewart
+
+          h2 Application Developer
+
+        ul.nav
+
+          li: a(href="/work") Work
+
+          li: a(href="/connect") Connect
+
+          li: a(href="/contact") Contact
+
+          li: a(href="/about") About
+
+          li: a(href="/") Home
+          
+    div.main
+
+    footer.footer
+
+      p Copyright &copy; 2014
+
+  // -----------------------------
+  // Templates
+  // -----------------------------
+
+  script#home(type="text/template").
+    <div class="page home">{{{content}}}</div>
+
+  script#about(type="text/template").
+    <div class="page about">{{{content}}}</div>
+
+  script#contact(type="text/template").
+    <div class="page contact">{{{content}}}</div>
+
+  script#connect(type="text/template").
+    <div class="page contact">{{{content}}}</div>
+
+  script#work(type="text/template").
+    <div class="page contact">{{{content}}}</div>
+
+  // -----------------------------
+  // Libraries
+  // -----------------------------
+
+  script(type="text/javascript", src="http://code.jquery.com/jquery-2.1.1.min.js")
+
+  <!-- Latest compiled and minified JavaScript -->
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js")
+
+
+  // -----------------------------
+  // Application
+  // -----------------------------
+
+
+  script(type="text/javascript", src="assets/scripts/views/work.js")
+
+  script(type="text/javascript", src="assets/scripts/views/connect.js")
+
+  script(type="text/javascript", src="assets/scripts/views/about.js")
+
+  script(type="text/javascript", src="assets/scripts/views/contact.js")
+
+  script(type="text/javascript", src="assets/scripts/views/home.js")
+
+  script(type="text/javascript", src="assets/scripts/main.js")
