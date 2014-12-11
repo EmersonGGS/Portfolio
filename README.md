@@ -1,4 +1,4 @@
-# Single Page Application Boilerplate
+# Portfolio Site
 
 ## Installation
 
@@ -22,3 +22,5 @@
 - [Gulp Reaname](https://www.npmjs.org/package/gulp-rename)
 - [Gulp Jade](https://www.npmjs.org/package/gulp-jade)
 
+Jade - fast and efficient to write.
+LESS - because I wanted to be different then those other shmucks.
