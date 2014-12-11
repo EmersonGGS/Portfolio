@@ -81,7 +81,23 @@
     
   </script>
   <script id="work" type="text/template">
-    <div class="page work">{{{content}}}</div>
+    <div class="page work">
+      <img src="{{{image}}}" class="sectionIcon">
+      {{{content}}}
+      {{#each works}}
+        <div class="project">
+          <img src="{{image}}" class="projectImg">
+          <div class="projDesc">
+            <h2>{{title}}</h2>
+            <p>{{desc}}</p>
+            <p class="skills">{{skills}}</p>
+            <a href="{{URL}}">
+              <button>Check it out</button>
+            </a>
+          </div>
+        </div>
+      {{/each}}
+    </div>
     
   </script>
   <!-- ------------------------------->
