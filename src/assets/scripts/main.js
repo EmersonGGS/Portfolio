@@ -90,8 +90,8 @@ jQuery(function($) {
   // -----------------------------
 
   $(document).delegate('a', 'click', function(e) {
-    e.preventDefault();
-    App.router.navigate($(this).attr('href'), { trigger: true });
-
+    var url = $(this).attr('href') || '#';
+    var isLocal = url.match(/^#/)
+    if(isLocal) { e.preventDefault(); App.router.navigate($(this).attr('href'), { trigger: true }); }
   });
 });

@@ -19,8 +19,8 @@ window.ConnectView = Backbone.View.extend({
       image: 'assets/images/connect.png',
       conections: [
           {image: 'URL(assets/images/codepen-hover.png)', link: 'http://codepen.io/EmersonGS/'},
-          {image: 'URL(assets/images/github-hover.png)', link: 'http://codepen.io/EmersonGS/'},
-          {image: 'URL(assets/images/blogger-hover.png)', link: 'http://codepen.io/EmersonGS/'},
+          {image: 'URL(assets/images/github-hover.png)', link: 'https://github.com/EmersonGGS'},
+          {image: 'URL(assets/images/blogger-hover.png)', link: 'http://mybitcoinminingexperience.blogspot.ca/'},
           {image: 'URL(assets/images/googleplus-hover.png)', link: 'http://codepen.io/EmersonGS/'},
           {image: 'URL(assets/images/linkedIn-hover.png)', link: 'http://codepen.io/EmersonGS/'},
           {image: 'URL(assets/images/facebook-hover.png)', link: 'http://codepen.io/EmersonGS/'},
