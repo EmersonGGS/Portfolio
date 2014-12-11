@@ -84,7 +84,7 @@ a{
 p{
   font-size: 18px;
   margin-top: 10px;
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right:auto;
 }
@@ -171,13 +171,14 @@ form{
 .project{
   width: 100%;
   margin-top: 40px;
+  border-bottom: 1px solid #dae3e7;
 }
 
 .project img{
   width: 200px;
   height: auto;
   display: inline-block;
-  margin-top: -140px;
+  margin-bottom: 20px;
 }
 
 .projDesc{
@@ -187,19 +188,34 @@ form{
 
 .projDesc h2{
   text-align: center;
+  padding-bottom: 5px;
+  width: 95%;
+  margin-left: 15px;
 }
 
 .projDesc p{
-  font-size: 16px;
+  width: 95%;
+  font-size: 15px;
 }
 
-.skills{
+p.skills{
   color: #c4c3c3;
+  text-align: left;
 }
 
 .work{
   padding-bottom: 35px;
   margin-bottom: 50px;
+}
+
+.work button{
+  width: 200px;
+  padding:10px;
+  background-color: #479fc8;
+  border-radius:5px;
+  float: right;
+  margin-top: 30px;
+
 }
 
 footer{

@@ -89,6 +89,7 @@ jQuery(function($) {
   // Navigation Links
   // -----------------------------
 
+  //allows routing to external URLS
   $(document).delegate('a', 'click', function(e) {
     var url = $(this).attr('href') || '#';
     var isLocal = url.match(/^#/)
