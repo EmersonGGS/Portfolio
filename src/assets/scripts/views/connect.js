@@ -21,10 +21,10 @@ window.ConnectView = Backbone.View.extend({
           {image: 'URL(assets/images/codepen-hover.png)', link: 'http://codepen.io/EmersonGS/'},
           {image: 'URL(assets/images/github-hover.png)', link: 'https://github.com/EmersonGGS'},
           {image: 'URL(assets/images/blogger-hover.png)', link: 'http://mybitcoinminingexperience.blogspot.ca/'},
-          {image: 'URL(assets/images/googleplus-hover.png)', link: 'http://codepen.io/EmersonGS/'},
-          {image: 'URL(assets/images/linkedIn-hover.png)', link: 'http://codepen.io/EmersonGS/'},
-          {image: 'URL(assets/images/facebook-hover.png)', link: 'http://codepen.io/EmersonGS/'},
-          {image: 'URL(assets/images/twitter-hover.png)', link: 'http://codepen.io/EmersonGS/'},
+          {image: 'URL(assets/images/googleplus-hover.png)', link: 'https://plus.google.com/+EmersonStewartDev/posts'},
+          {image: 'URL(assets/images/linkedIn-hover.png)', link: 'https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile'},
+          {image: 'URL(assets/images/facebook-hover.png)', link: 'https://www.facebook.com/emerson.stewart.9'},
+          {image: 'URL(assets/images/twitter-hover.png)', link: 'https://twitter.com/EmersonGStewart'},
         ]
     });
 
